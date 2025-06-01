@@ -1,0 +1,86 @@
+body {
+      background-image: url(https://cdn.glitch.global/8cc87ae8-2401-45b0-98ad-907c24699c04/rottweilers?v=1721070579574);
+      font-family: "Courier New", monospace;
+}
+
+      .content {
+        max-width: 960px;
+        margin: auto;
+        background: #260b1d;
+        padding: 10px;
+      }
+td,
+th {
+        border: 1px solid #000000;
+        text-align: left;
+        padding: 8px;
+        vertical-align: top;
+}
+      a:link,
+      a:visited {
+        background-color: #ff0095;
+        color: #260b1d;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      a:hover,
+      a:active {
+        background-color: #42031f;
+      }
+
+
+ table,
+      th,
+      td {
+        border: 6px solid #260b1d;
+        border-collapse: collapse;
+      }
+
+      
+      td {
+        background-color: #42031f;
+      }
+b {
+  color: #eb91c4;
+}
+ h1 {
+   color: #ff2994;
+        text-align: center;
+      }
+h5,
+      dt {
+        color: #1bb49d;
+        font-weight: bold;
+      }
+h6 {
+  color: #ff2994;
+        text-align: center;
+      }
+h7 {
+  color: #ffd738;
+}
+
+h8 {
+  color: #e6462e;
+}
+
+h9 {
+  color: #8ce841;
+}
+
+h10 {
+  color: #1883db;
+}
+h11 {
+  color: black;
+}
+audio {
+    padding: 0px 60px 0px 60px;
+    width: 80%;
+    height: 25px;
+}
+img {
+  border: 5px solid #260b0c;
+}
