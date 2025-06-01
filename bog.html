@@ -1,0 +1,46 @@
+<html>
+  <head>
+        <link rel="stylesheet" href="bogStyle.css" />
+        <script src="src/script.js"></script>
+    <style>
+      img {
+  border: 2px solid black;
+}
+
+h1 {text-align: center;}
+b {text-align: center;}
+
+    </style>
+  </head>
+  <body>
+    
+
+<h1>
+  When is it Safe to Leave the Bog?
+
+</h1>
+<img src="https://cdn.glitch.global/8cc87ae8-2401-45b0-98ad-907c24699c04/image_2024-11-13_205049303.png?v=1731523851556"
+     style="width: 30%" class="center"> <br> <br>
+<b> Tuesday</b>
+        <b id="LeaveBog"></b>
+    <script>
+    //to leave leave bog
+const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+const d = new Date();
+let day = weekday[d.getDay()];
+console.log(day)
+      print(day)
+
+if (day === "Tuesday") {
+  document.getElementById("LeaveBog").innerHTML =  <h6><a href="index.html">Leave bog?</a></h6> ;
+}
+else {
+  document.getElementById("LeaveBog").innerHTML = "not friday";
+}
+    </script>
+
+    
+    
+  </body>
+</html>
